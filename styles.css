@@ -1,0 +1,19 @@
+html {
+    overflow: hidden;
+    height: 100%;
+
+}
+
+body {
+  padding-top: 56px;
+  height: 100%;
+  overflow: auto;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
