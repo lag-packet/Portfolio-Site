@@ -1,7 +1,6 @@
 html {
-    overflow: hidden;
-    height: 100%;
-
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
@@ -16,4 +15,25 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.skill {
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-body {
+  height: 75px;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: bold;
 }
