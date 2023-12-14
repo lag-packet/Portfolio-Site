@@ -37,3 +37,12 @@ section {
   font-size: 14px;
   font-weight: bold;
 }
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+
+.experience {
+  height: 400px;
+}
