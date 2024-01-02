@@ -45,3 +45,14 @@ section {
 .experience {
   height: 400px;
 }
+
+/* Custom CSS for consistent card height and button alignment */
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card-body .btn {
+  margin-top: auto;  /* Pushes the button to the bottom */
+}
